@@ -17,3 +17,13 @@
 **Usage**
 
 `docker pull stilesb/stack:latest`
+
+Extending via Dockerfile:
+
+```Dockerfile
+FROM stilesb/stack:latest
+WORKDIR /home/robot/code
+ADD . .
+RUN stack setup
+RUN stack build
+```

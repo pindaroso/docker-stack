@@ -1,2 +1,2 @@
 docker:
-	@docker build .
+	@docker build -t stilesb/stack:latest .

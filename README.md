@@ -27,3 +27,11 @@ ADD . .
 RUN stack setup
 RUN stack build
 ```
+
+## Notes
+
+```bash
+$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+stilesb/stack       latest              b8d74f8e4c12        8 minutes ago       485.5 MB
+```
